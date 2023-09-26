@@ -2178,12 +2178,13 @@ pre code {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .form-control {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .form-control::-ms-expand {
   background-color: transparent;
@@ -2744,12 +2745,13 @@ textarea.form-control {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .btn {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .btn:hover {
   color: #212529;
@@ -3353,12 +3355,13 @@ input[type="button"].btn-block {
   transition: opacity 0.15s linear;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .fade {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .fade:not(.show) {
   opacity: 0;
@@ -3376,12 +3379,13 @@ input[type="button"].btn-block {
   transition: height 0.35s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .collapsing {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .dropup,
 .dropright,
@@ -4126,12 +4130,13 @@ input[type="button"].btn-block {
   transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .custom-switch .custom-control-label::after {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   background-color: rgba(0, 0, 0, 0.01);
@@ -4315,12 +4320,13 @@ input[type="button"].btn-block {
           appearance: none;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .custom-range::-webkit-slider-thumb {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .custom-range::-webkit-slider-thumb:active {
   background-color: #d2cee5;
@@ -4348,12 +4354,13 @@ input[type="button"].btn-block {
        appearance: none;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .custom-range::-moz-range-thumb {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .custom-range::-moz-range-thumb:active {
   background-color: #d2cee5;
@@ -4383,12 +4390,13 @@ input[type="button"].btn-block {
   appearance: none;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .custom-range::-ms-thumb {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .custom-range::-ms-thumb:active {
   background-color: #d2cee5;
@@ -4442,14 +4450,15 @@ input[type="button"].btn-block {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .custom-control-label::before,
   .custom-file-label,
   .custom-select {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .nav {
   display: -webkit-box;
@@ -5469,12 +5478,13 @@ input[type="button"].btn-block {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .badge {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 a.badge:hover, a.badge:focus {
   text-decoration: none;
@@ -5826,12 +5836,13 @@ a.badge-dark:focus, a.badge-dark.focus {
   transition: width 0.6s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .progress-bar {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5844,12 +5855,13 @@ a.badge-dark:focus, a.badge-dark.focus {
           animation: progress-bar-stripes 1s linear infinite;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
     -webkit-animation: none;
             animation: none;
   }
-}
+} */
 
 .media {
   display: -webkit-box;
@@ -6328,12 +6340,13 @@ a.close.disabled {
           transform: translate(0, -50px);
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .modal.show .modal-dialog {
   -webkit-transform: none;
@@ -6857,12 +6870,13 @@ a.close.disabled {
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .carousel-item.active,
 .carousel-item-next,
@@ -6908,13 +6922,14 @@ a.close.disabled {
   transition: 0s 0.6s opacity;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-left,
   .carousel-fade .active.carousel-item-right {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -6942,13 +6957,14 @@ a.close.disabled {
   transition: opacity 0.15s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
   .carousel-control-next {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
@@ -7024,12 +7040,13 @@ a.close.disabled {
   transition: opacity 0.6s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .carousel-indicators li {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .carousel-indicators .active {
   opacity: 1;
@@ -11151,12 +11168,13 @@ p {
   transition: all, 0.3s;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .service-card .body img.icon {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .service-card .body .subtitle {
   position: absolute;
@@ -11167,12 +11185,13 @@ p {
   transition: all, 0.3s;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .service-card .body .subtitle {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .service-card:hover .body img.icon {
   margin-top: 5px;
@@ -11217,12 +11236,13 @@ p {
   overflow: hidden;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .portfolio-card .portfolio-card-overlay {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .portfolio-card .portfolio-card-overlay .portfolio-card-caption {
   display: block;
@@ -11276,12 +11296,13 @@ p {
   transition: all, 0.3s;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .pricing-wrapper .pricing-card {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .pricing-wrapper .pricing-card-header .pricing-card-icon {
   width: 70px;
@@ -11629,12 +11650,13 @@ pre .code {
   font-family: 'Baloo Paaji', cursive;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .custom-navbar {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .custom-navbar .logo {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
@@ -11660,12 +11682,13 @@ pre .code {
   transition: all, 0.3s;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (prefers-reduced-motion: reduce) {
   .custom-navbar .container {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 .custom-navbar .hamburger {
   margin-left: 20px;
@@ -11743,12 +11766,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(9) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(8) {
@@ -11759,12 +11783,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(8) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(7) {
@@ -11775,12 +11800,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(7) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(6) {
@@ -11791,12 +11817,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(6) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(5) {
@@ -11807,12 +11834,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(5) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(4) {
@@ -11823,12 +11851,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(4) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(3) {
@@ -11839,12 +11868,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(3) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(2) {
@@ -11855,12 +11885,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(2) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav .item:nth-child(1) {
@@ -11871,12 +11902,13 @@ pre .code {
   }
 }
 
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav .item:nth-child(1) {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .custom-navbar .nav.show .item {
@@ -11918,12 +11950,13 @@ pre .code {
   }
 }
 
-@media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
+/* Un-comment for user prefers-reduced-motion*/
+/* @media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
   .custom-navbar .nav {
     -webkit-transition: none;
     transition: none;
   }
-}
+} */
 
 @media (max-width: 991.98px) {
   .custom-navbar .nav.show {
